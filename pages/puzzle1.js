@@ -15,7 +15,10 @@ export default function Puzzle(){
     const correct = (h === '5caa5c3dc5f7069ec9cd58a64cf0598a45f927acaf8211dfbe9d0d98a7479ef3');
     // log attempt
     if(user){
-      await supabase.from('attempts').insert([{ user_id: user.id, stage: 1, answer: val, correct }]);
+     await supabase.from('attempts').insert(
+  [{ user_id: user.id, stage: 1, answer: val, correct }],
+  { returning: 'minimal' }   // prevents conflict on insert
+);
       if(correct){
         await supabase.from('progress').upsert([{ user_id: user.id, stage: 1 }], { onConflict: 'user_id,stage' });
       }
