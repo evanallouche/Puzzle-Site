@@ -29,8 +29,40 @@ export default function Puzzle(){
 
   return (
     <div className="wrap">
-      <div className="card">
-        <p>A mysterious poem appears… decipher it to continue.</p>
+      <<div class="card"><div class="pad">
+              <div class="poem" id="poem">
+Hugurinn snýr til bókar sem geymir svör.
+Tunglskinið lýsir upp þakkarorðin í bókinni.
+Tíminn minnir á upphaf orðanna.
+Pílagrímar finna sannleikann þar.
+Sjáðu hvernig fyrstu orð leiða áfram.
+
+:
+//
+
+Túlkun felst í fyrstu stafnum.
+Iðandi kraftur er falinn í upphafi.
+Nafnlausir stafir bera dulinn skilaboð.
+Yfirborðið hylur en upphafið afhjúpar.
+Upphafið er lykill að vegi óséðum.
+Raddir hvísla að byrjunin er lykillinn.
+Ljós birtist í fyrsta bókstafnum.
+
+.
+
+Cíklur myndast úr upphafi.
+Orðin sem hefjast móta veginn.
+Málsgrein og stafur verða að brú.
+/
+2 leiðir sameinast í byrjun.
+Dularfull tákn tengjast í einingu.
+Allt sem byrjar, teiknar kort.
+Wandarar finna hlekkinn í fyrstu stöfunum.
+4 er númer liðsins.
+8 eru vikurnar sem eftir eru.
+Zóarandi runur sýna áttina.
+Beygðu augun niður fyrstu stafi — þar er slóðin.
+      </div>
         <div className="answer">
           <input id="ans" placeholder="Answer" value={ans} onChange={e=>setAns(e.target.value)} />
           <button id="go" onClick={submit}>Submit</button>
