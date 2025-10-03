@@ -13,7 +13,11 @@ export default function Puzzle(){
 
   async function submit(){
     const val = normalize(ans);
-    const h = await sha256Hex(val);
+console.log("Raw input:", ans);
+console.log("Normalized input:", val);
+const h = await sha256Hex(val);
+console.log("Hash of normalized:", h);
+
     const correct = (h === '5caa5c3dc5f7069ec9cd58a64cf0598a45f927acaf8211dfbe9d0d98a7479ef3');
     console.log(h);
     // log attempt
