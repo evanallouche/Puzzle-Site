@@ -12,7 +12,7 @@ export default function Puzzle(){
   async function submit(){
     const val = normalize(ans);
     const h = await sha256Hex(val);
-    const correct = (h === '3908e30500429cb22c3a04cfcfaee4c98e75a8b3261f12378191d51b9c54ad1f');
+    const correct = (h === '2c6a891ceb9ad04d7ca7d38eb707525535e555fdf149a9efc6e2dcaeb8b17b9e');
     // log attempt
     if(user){
       await supabase.from('attempts').insert([{ user_id: user.id, stage: 4, answer: val, correct }]);
