@@ -18,8 +18,7 @@ console.log("Normalized input:", val);
 const h = await sha256Hex(val);
 console.log("Hash of normalized:", h);
 
-    const correct = (h === '451e05f319f6894f97ce2950ea3e0a9fad58f0ffdad21a96feb6871190cc956c
-');
+    const correct = (h === '451e05f319f6894f97ce2950ea3e0a9fad58f0ffdad21a96feb6871190cc956c');
     console.log(h);
     // log attempt
     if(user){
