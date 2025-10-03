@@ -29,7 +29,7 @@ export default function Puzzle(){
 
   return (
     <div className="wrap">
-      <<div class="card"><div class="pad">
+      <div class="card"><div class="pad">
               <div class="poem" id="poem">
 Hugurinn snýr til bókar sem geymir svör.
 Tunglskinið lýsir upp þakkarorðin í bókinni.
