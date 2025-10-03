@@ -34,9 +34,9 @@ export default function Puzzle(){
     <div style={{
   background: "#fff",
   color: "#fff",
-  fontSize: "1px",
+  fontSize: "5px",
   textAlign: "center",
-  marginTop: "8px",
+  marginTop: "30px",
   overflow: "hidden"
 }}>
   https://upload.wikimedia.org/wikipedia/commons/3/36/Pigpen_cipher_key.svg
