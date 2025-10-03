@@ -31,37 +31,36 @@ export default function Puzzle(){
     <div className="wrap">
       <div class="card"><div class="pad">
               <div class="poem" id="poem">
-Hugurinn snýr til bókar sem geymir svör.
-Tunglskinið lýsir upp þakkarorðin í bókinni.
-Tíminn minnir á upphaf orðanna.
-Pílagrímar finna sannleikann þar.
-Sjáðu hvernig fyrstu orð leiða áfram.
+<p>Hugurinn snýr til bókar sem geymir svör.</p>
+  <p>Tunglskinið lýsir upp þakkarorðin í bókinni.</p>
+  <p>Tíminn minnir á upphaf orðanna.</p>
+  <p>Pílagrímar finna sannleikann þar.</p>
+  <p>Sjáðu hvernig fyrstu orð leiða áfram.</p>
 
-:
-//
+  <p>://</p>
 
-Túlkun felst í fyrstu stafnum.
-Iðandi kraftur er falinn í upphafi.
-Nafnlausir stafir bera dulinn skilaboð.
-Yfirborðið hylur en upphafið afhjúpar.
-Upphafið er lykill að vegi óséðum.
-Raddir hvísla að byrjunin er lykillinn.
-Ljós birtist í fyrsta bókstafnum.
+  <p>Túlkun felst í fyrstu stafnum.</p>
+  <p>Iðandi kraftur er falinn í upphafi.</p>
+  <p>Nafnlausir stafir bera dulinn skilaboð.</p>
+  <p>Yfirborðið hylur en upphafið afhjúpar.</p>
+  <p>Upphafið er lykill að vegi óséðum.</p>
+  <p>Raddir hvísla að byrjunin er lykillinn.</p>
+  <p>Ljós birtist í fyrsta bókstafnum.</p>
 
-.
+  <p>.</p>
 
-Cíklur myndast úr upphafi.
-Orðin sem hefjast móta veginn.
-Málsgrein og stafur verða að brú.
-/
-2 leiðir sameinast í byrjun.
-Dularfull tákn tengjast í einingu.
-Allt sem byrjar, teiknar kort.
-Wandarar finna hlekkinn í fyrstu stöfunum.
-4 er númer liðsins.
-8 eru vikurnar sem eftir eru.
-Zóarandi runur sýna áttina.
-Beygðu augun niður fyrstu stafi — þar er slóðin.
+  <p>Cíklur myndast úr upphafi.</p>
+  <p>Orðin sem hefjast móta veginn.</p>
+  <p>Málsgrein og stafur verða að brú.</p>
+  <p>/</p>
+  <p>2 leiðir sameinast í byrjun.</p>
+  <p>Dularfull tákn tengjast í einingu.</p>
+  <p>Allt sem byrjar, teiknar kort.</p>
+  <p>Wandarar finna hlekkinn í fyrstu stöfunum.</p>
+  <p>4 er númer liðsins.</p>
+  <p>8 eru vikurnar sem eftir eru.</p>
+  <p>Zóarandi runur sýna áttina.</p>
+  <p>Beygðu augun niður fyrstu stafi — þar er slóðin.</p>
       </div>
     </div>
         <div className="answer">
