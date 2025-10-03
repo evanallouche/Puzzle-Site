@@ -30,7 +30,7 @@ export default function Puzzle(){
   return (
     <div className="wrap">
       <div className="card">
-        <audio controls src="/convert.ing-now________SPECTOGRAM.wav" controlsList="download"></audio><p className="small">Listen carefully. The image hidden in sound reveals the answer.</p>
+        <audio controls src="/convert.ing-now________SPECTOGRAM.wav" controlsList="download"></audio><p className="small">.</p>
         <div className="answer">
           <input id="ans" placeholder="Answer" value={ans} onChange={e=>setAns(e.target.value)} maxlength="2"/>
           <button id="go" onClick={submit}>Submit</button>
