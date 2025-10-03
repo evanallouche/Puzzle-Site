@@ -31,6 +31,17 @@ export default function Puzzle(){
     <div className="wrap">
       <div className="card">
         <img src="/Capture.JPG" alt="Puzzle 1" />
+    <div style={{
+  background: "#fff",
+  color: "#fff",
+  fontSize: "1px",
+  textAlign: "center",
+  marginTop: "8px",
+  overflow: "hidden"
+}}>
+  https://upload.wikimedia.org/wikipedia/commons/3/36/Pigpen_cipher_key.svg
+</div>
+
         <div className="answer">
           <input id="ans" placeholder="Answer" value={ans} onChange={e=>setAns(e.target.value)} />
           <button id="go" onClick={submit}>Submit</button>
