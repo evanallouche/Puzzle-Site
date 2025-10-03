@@ -63,6 +63,7 @@ Wandarar finna hlekkinn í fyrstu stöfunum.
 Zóarandi runur sýna áttina.
 Beygðu augun niður fyrstu stafi — þar er slóðin.
       </div>
+    </div>
         <div className="answer">
           <input id="ans" placeholder="Answer" value={ans} onChange={e=>setAns(e.target.value)} />
           <button id="go" onClick={submit}>Submit</button>
