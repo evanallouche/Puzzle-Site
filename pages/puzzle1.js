@@ -13,6 +13,7 @@ export default function Puzzle(){
     const val = normalize(ans);
     const h = await sha256Hex(val);
     const correct = (h === '5caa5c3dc5f7069ec9cd58a64cf0598a45f927acaf8211dfbe9d0d98a7479ef3');
+    console.log(h);
     // log attempt
     if(user){
      await supabase.from('attempts').insert(
