@@ -1,7 +1,9 @@
 import { useEffect, useState } from 'react';
 import { supabase } from '@/lib/supabaseClient';
-import { sha256Hex, normalize } from '@/lib/hash';
+import { sha256Hex } from '@/lib/hash';
 import { useUser } from '@/lib/useAuth';
+
+function normalize(s){ return (s||'').toLowerCase().replace(/[^a-z0-9]/g,''); }
 
 export default function Puzzle(){
   const { user, loading } = useUser(true);
