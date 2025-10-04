@@ -23,7 +23,7 @@ export default function Home(){
   return (
     <div className="wrap">
       <div className="card">
-        <h1>🧩 Puzzle Challenge</h1>
+        <h1>HAMOSADNIKIM</h1>
         <p className="small">Log in with your pre-created account.</p>
         <form onSubmit={signIn}>
           <div className="answer">
