@@ -26,6 +26,14 @@ export default function Admin(){
     <div className="wrap">
       <div className="card" style={{textAlign:'left'}}>
         <h1>Admin</h1>
+        <button
+          type="button"
+          className="primary"
+          style={{ marginBottom: '1rem' }}
+          onClick={() => { window.location.href = '/puzzle1'; }}
+        >
+          Go to Puzzle
+        </button>
         {err && <div className="feedback">⚠️ {err}</div>}
         <h3>Progress</h3>
         <pre className="small">{JSON.stringify(rows,null,2)}</pre>
