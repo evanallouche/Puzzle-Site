@@ -7,8 +7,12 @@ export default function Home(){
   const [err, setErr] = useState('');
 
   useEffect(()=>{
-    supabase.auth.getSession().then(({data:{session}})=>{
-      if(session) window.location.href = '/puzzle1';
+    supabase.auth.getSession().then(({ data: { session } }) => {
+      if(!session) return;
+      const destination = session.user?.email === process.env.NEXT_PUBLIC_ADMIN_EMAIL
+        ? '/admin'
+        : '/puzzle1';
+      window.location.href = destination;
     });
   }, []);
 
@@ -17,7 +21,10 @@ export default function Home(){
     setErr('');
     const { data, error } = await supabase.auth.signInWithPassword({ email, password });
     if(error){ setErr(error.message); return; }
-    window.location.href = '/puzzle1';
+    const destination = data.user?.email === process.env.NEXT_PUBLIC_ADMIN_EMAIL
+      ? '/admin'
+      : '/puzzle1';
+    window.location.href = destination;
   }
 
   return (
