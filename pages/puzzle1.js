@@ -40,7 +40,7 @@ console.log("Hash of normalized:", h);
   return (
     <div className="wrap">
       <div className="card">
-        <img src="/Capture.JPG" alt="Puzzle 1" />
+        <img src="/IMG_2808.jpeg" alt="Puzzle 1" />
     <div style={{
   background: "#fff",
   color: "#fff",
