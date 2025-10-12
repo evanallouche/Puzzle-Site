@@ -14,4 +14,9 @@ h1{color:var(--accent);margin:0 0 10px;}
   border:1px solid rgba(255,255,255,0.14);border-radius:10px;font-size:16px;text-align:center;}
 .feedback{margin-top:10px;font-size:13px;color:var(--muted);} 
 img, audio{max-width:100%;border-radius:8px;}
+.audio-wrap{display:flex;align-items:center;justify-content:center;gap:8px;margin-bottom:4px;}
+.audio-download{color:var(--muted);text-decoration:none;line-height:1;opacity:0.6;padding:6px;border-radius:8px;display:inline-flex;align-items:center;justify-content:center;transition:opacity 0.2s ease, background 0.2s ease;}
+.audio-download:focus,.audio-download:hover{opacity:1;background:rgba(255,255,255,0.08);}
+.audio-download svg{display:block;}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0;}
 .small{font-size:12px;color:var(--muted);}
